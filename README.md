@@ -1,6 +1,6 @@
 # SerpElixir
 
-A small Elixir wrapper test for the SERPAPI Google Finance API that allows you to fetch stock quotes and financial data.
+A small Elixir wrapper test for the SerpApi Google Finance API that allows you to fetch stock quotes and financial data.
 
 ## Setup with mise
 

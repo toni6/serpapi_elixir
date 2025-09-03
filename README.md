@@ -1,6 +1,6 @@
 # SerpElixir
 
-A small Elixir wrapper test for the SerpApi Google Finance API that allows you to fetch stock quotes and financial data.
+A small Elixir wrapper test for the SerpApi Google Finance API using [Pythonx](https://hexdocs.pm/pythonx/Pythonx.html) that allows you to fetch stock quotes and financial data.
 
 ## Setup with mise
 
@@ -36,7 +36,7 @@ mise install
 
 ## Configuration
 
-### 1. Get a SERPAPI Key
+### 1. Get a SerpApi API Key
 
 Sign up at [https://serpapi.com](https://serpapi.com) to get your API key.
 
@@ -70,7 +70,7 @@ config :serp_elixir, :api_key, System.get_env("SERPAPI_KEY")
 
 ## Usage
 
-### Start an Interactive Session
+### Start an iex Session
 
 ```bash
 iex -S mix
